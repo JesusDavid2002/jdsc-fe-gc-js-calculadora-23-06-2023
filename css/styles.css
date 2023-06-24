@@ -1,0 +1,18 @@
+.cl-1{
+    background-color: rgb(202, 202, 202);
+}
+
+.resultado{
+    background-color: black;
+    height: 50px;
+}
+
+.cl-2{
+    background-color: rgb(51, 152, 247);
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.cl-3{
+    width: 36%;
+}
