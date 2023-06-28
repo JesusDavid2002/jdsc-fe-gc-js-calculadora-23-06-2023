@@ -42,7 +42,7 @@ cuatro.onclick = (e) => {
 }
 cinco.onclick = (e) => {
     mostrar.textContent = mostrar.textContent + "5";
-    mostrar.value =mostrar.textContent;
+    mostrar.value = mostrar.textContent;
 }
 seis.onclick = (e) => {
     mostrar.textContent = mostrar.textContent + "6";
@@ -50,7 +50,7 @@ seis.onclick = (e) => {
 }
 siete.onclick = (e) => {
     mostrar.textContent = mostrar.textContent + "7";
-    mostrar.value =mostrar.textContent;
+    mostrar.value = mostrar.textContent;
 }
 ocho.onclick = (e) => {
     mostrar.textContent = mostrar.textContent + "8";
@@ -58,7 +58,7 @@ ocho.onclick = (e) => {
 }
 nueve.onclick = (e) => {
     mostrar.textContent = mostrar.textContent + "9";
-    mostrar.value =mostrar.textContent;
+    mostrar.value = mostrar.textContent;
 }
 cero.onclick = (e) => {
     mostrar.textContent = mostrar.textContent + "0";
@@ -72,28 +72,28 @@ decimal.onclick = (e) => {
 suma.onclick = (e) => {
     operadorA = mostrar.textContent;
     operacion = "+";
-    mostrar.value = operacion;
+    mostrar.value += operacion;
     Limpiar();
 }
 
 resta.onclick = (e) => {
     operadorA = mostrar.textContent;
     operacion = "-";
-    mostrar.value = operacion;
+    mostrar.value += operacion;
     Limpiar();
 }
 
 multi.onclick = (e) => {
     operadorA = mostrar.textContent;
     operacion = "*";
-    mostrar.value = operacion;
+    mostrar.value += operacion;
     Limpiar();
 }
 
 division.onclick = (e) => {
     operadorA = mostrar.textContent;
     operacion = "/";
-    mostrar.value = operacion;
+    mostrar.value += operacion;
     Limpiar();
 }
 
